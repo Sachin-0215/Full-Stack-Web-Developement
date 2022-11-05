@@ -9,4 +9,23 @@
 
 # DAY 2
 2. HTML LIST ,IMAGES AND TABLE
+    * Table
+        - thead
+        - tbody
+        - tfoot
+        - colspan
+        - rowspan
+        - colgroup
+        - tr,td,th
+
+    * Images
+        - img src, srcset
+    
+    * List
+        - unordered list
+        - ordered list
+
+# DAY3
+3. LINKS, FORMS, AND SEMANTICS TAGS IN HTML
+
 
