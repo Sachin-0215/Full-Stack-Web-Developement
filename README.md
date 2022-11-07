@@ -27,5 +27,11 @@
 
 # DAY3
 3. LINKS, FORMS, AND SEMANTICS TAGS IN HTML
-
-
+    * Links
+        - <a> tag
+        -  target attribute
+            - _self 
+            - _blank 
+        - Link Bookmarks
+        - Phone and Email URL
+    * Forms in HTML
