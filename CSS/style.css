@@ -1,0 +1,47 @@
+/* *{
+    padding: auto;
+    text-align: center;
+    font-style: italic;
+ }      ----> very kam used */
+
+/* h1{
+    color: cyan;
+}
+
+p{
+    background-color: greenyellow;
+    color: violet;
+} */
+
+
+.red-border{
+    background-color: antiquewhite;
+    border: 5px solid red;
+}
+
+#lorem-text{
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.red-border, #lorem-text{
+    text-align: center;
+}
+
+header{
+    /* width: 500px;*/
+
+    /* font-size: 32px; */
+}
+header h1{
+    color: tomato;
+    text-align: center;
+    /* background-color:rgba(0, 0, 0,0.5); */
+    /* background-color: #2d20a13d; */
+    background-color: hsl(200,40%,50%);
+    /* width: 10rem; */
+    font-size: 10vw;
+}
+img{
+    width: 10vw;
+}

@@ -1,0 +1,20 @@
+
+.box {
+    height: 150px;
+    width : 150px;
+    border: 10px solid black;
+    padding: 10px 20px 30px;
+    margin: 10px 20px 30px;
+}
+
+.red{
+    background-color: red;
+
+}
+
+.green {
+    background-color: green;
+}
+.orange{
+    background-color: orange;
+}

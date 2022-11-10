@@ -1,0 +1,18 @@
+
+*{
+    padding: 15px;
+   
+}
+
+p{
+   font-size: small;
+       background-color: rgba(212, 247, 249, 0.918);
+      border-left: 5px solid rgba(86, 156, 255, 0.886);
+         }
+
+.warning{
+    font-size: small;
+background-color:rgb(248, 215, 240);
+border-left: 5px solid rgb(248, 133, 221);
+}
+
