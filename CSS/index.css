@@ -1,0 +1,33 @@
+h2{
+    background-color: aqua;
+}
+
+/* h3{
+    color: yellow;
+    background-color: red;
+} */
+
+.black-border{
+    background-color: cyan;
+    border: 5px solid black;
+}
+
+#text-font{
+    font-weight: bold;
+    font-style: italic;
+}
+h1{
+   font-size: 100%;
+}
+header h1{
+    background-color: grey;
+    /* width: 25%; */
+    width:10em;
+    font-size: 5vw;
+}
+.color{
+    color: rgb(237, 208, 136);
+}
+img{
+    width: 10vh;
+}

@@ -1,59 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-
-    <div class="box">
-      <h1>Settings</h1>
-      <div class="p-option">
-        <p class="Account">Account</p>
-        <p class="Payment">Payment</p>
-      </div>
-      <div class="s-cards">
-        <p>saved cards:</p>
-        <div class="c-type">
-          <img class="master" src="https://logos-world.net/wp-content/uploads/2020/09/Mastercard-Logo.png" alt=""/>
-          <div class="number">
-            <p class="n">**** **** **** 3193</p>
-            <p>Remove card</p>
-          </div>
-        </div>
-        <div class="c-type">
-          <img src="https://cdn-icons-png.flaticon.com/512/39/39196.png?w=360" alt="" />
-          <div class="number">
-            <p class="n">**** **** **** 3193</p>
-            <p>Remove card</p>
-          </div>
-        </div>
-      </div>
-      <div class="new-cards">
-        <p>Add new card:</p>
-        <div class="name-section">
-          <p class="p-name">Card Holder name</p>
-          <p class="name">Pitam Das</p>
-        </div>
-        <div class="c-number">
-          <div class="c-section">
-            <p class="c-name">Card number</p>
-            <p class="number">5134-5264-4</p>
-          </div>
-          <div class="exp">
-            <p>Exp. date</p>
-          </div>
-          <div class="cvv">
-            <p>cvv</p>
-          </div>
-        </div>
-      </div>
-      <div class="add">
-    <button>Add Card</button>
-      </div>
+    <link rel="stylesheet" href="chall1.css">
+</head>
+<body>
+    <div class="container">
+        <h1 >Settings</h1>
+        
+        <p >Account <b class="payment">Payment</b></p>
+       <form action="">
+        <h4>Saved Cards:</h4>
+        
+        <div class="card-logos ">
+            <label for="card" class="icon"> 
+                <div class="card-logos1">
+                    <img src="https://yt3.ggpht.com/ytc/AMLnZu8-TPYEstsIQtQjtOfra-fO3X2EmDvigGAFxinjhg=s900-c-k-c0x00ffffff-no-rj" >
+                </div>
+                
+             
+            <input type="number" id="card"placeholder="      **** **** ****3193                                   Remove Card"></div></label>
+        <br><br>
+        <div class="card-logo ">
+        <label for="card" class="icon">
+            <div class="card-logos1">
+                <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/363_Visa_Credit_Card_logo-512.png">
+            </div><div class="one">
+        <input type="number" id="card number" placeholder="      **** **** ****4296                                   Remove Card">
+    </div></div></label>
+        <h4>Add New Card:</h4>
+        <input type="text" id="name" placeholder="Card holder name">
+        <br><br>
+        <div class="one-line"> 
+        <div class="number">
+        <input  type="num" id="card number" placeholder="Card number"></div>
+        <div class="number">
+         <input type="text" id="Expiry date" placeholder="Exp date"></div>
+         <div class="number">
+        <input type="num" id="CVV" placeholder="CVV"></div></div>
+        <br><br>
+        <button style="background-color:rgb(130, 238, 130) ;color: white;"><strong>Add Card</strong> </button>
+       </form>
+    
+    
+    
     </div>
-  </body>
+    
+</body>
 </html>
